@@ -17,4 +17,4 @@ while True:
         with uinput.Device([uinput.KEY_ENTER]) as device:
          time.sleep(1)
          device.emit_combo([uinput.KEY_ENTER])
-         time.sleep(10)
+         time.sleep(10) #Sleep for 10 Seconds
